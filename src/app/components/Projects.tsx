@@ -59,7 +59,7 @@ export default function Projects() {
               className="px-4 border border-gray-500 border-solid rounded-md mx-auto"
             />
             <p className="text-center mx-auto bg-gradient-to-r from-gray-300 to-gray-600">
-              RM's Mug Printing(Next.js, Tailwind CSS, Typescript)
+              RM&apos;s Mug Printing(Next.js, Tailwind CSS, Typescript)
             </p>
           </Link>
         </div>

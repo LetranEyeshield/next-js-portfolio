@@ -13,7 +13,7 @@ export default function Socials() {
         viewport={{ once: false }}
       >
         <h3 className="roboto-slab text-white text-center text-xl md:text-3xl mt-10">
-          Let's Build Together!
+          Let&apos;s Build Together!
         </h3>
         <p className="text-center text-white">Coffee is life</p>
 
