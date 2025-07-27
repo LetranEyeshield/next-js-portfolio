@@ -1,0 +1,60 @@
+/* burger.css */
+
+/* Burger button position */
+.bm-burger-button {
+  position: fixed;
+  width: 30px;
+  height: 22px;
+  /* left: 20px; */
+  right: 20px;
+  top: 20px;
+  z-index: 1000;
+}
+
+.bm-burger-bars {
+  background: #333;
+}
+
+.bm-burger-bars-hover {
+  background: #555;
+}
+
+.bm-cross-button {
+  height: 24px;
+  width: 24px;
+}
+
+.bm-cross {
+  background: #fff;
+}
+
+.bm-menu {
+  background: #1e293b;
+  padding: 2.5em 1.5em 0;
+  font-size: 1.15em;
+  overflow: auto;
+}
+
+.bm-item-list {
+  display: flex;
+  flex-direction: column;
+  gap: 1.2rem;
+}
+
+.menu-item {
+  display: inline-block;
+  color: #f8fafc;
+  text-decoration: none;
+  padding: 0.5rem 0;
+  font-weight: 500;
+  transition: all 0.2s ease;
+}
+
+.menu-item:hover {
+  color: #38bdf8;
+  transform: translateX(5px);
+}
+
+.bm-overlay {
+  background: rgba(0, 0, 0, 0.3);
+}

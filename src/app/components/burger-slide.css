@@ -1,0 +1,66 @@
+burger.css
+
+/* Burger button position & size */
+.bm-burger-button {
+  position: fixed;
+  width: 30px;
+  height: 22px;
+  left: 20px;
+  top: 20px;
+  z-index: 1000;
+}
+
+/* Color of the burger lines */
+.bm-burger-bars {
+  background: #333;
+}
+
+/* Hover color */
+.bm-burger-bars-hover {
+  background: #555;
+}
+
+/* Cross button */
+.bm-cross-button {
+  height: 24px;
+  width: 24px;
+}
+
+.bm-cross {
+  background: #fff;
+}
+
+/* Sidebar menu itself */
+.bm-menu {
+  background: #1e293b; /* slate-800 */
+  padding: 2.5em 1.5em 0;
+  font-size: 1.15em;
+  overflow: auto;
+}
+
+/* Sidebar content */
+.bm-item-list {
+  display: flex;
+  flex-direction: column;
+  gap: 1.2rem;
+}
+
+/* Individual menu item */
+.menu-item {
+  display: inline-block;
+  color: #f8fafc; /* slate-50 */
+  text-decoration: none;
+  padding: 0.5rem 0;
+  font-weight: 500;
+  transition: all 0.2s ease;
+}
+
+.menu-item:hover {
+  color: #38bdf8; /* sky-400 */
+  transform: translateX(5px);
+}
+
+/* Overlay background */
+.bm-overlay {
+  background: rgba(0, 0, 0, 0.3);
+}
