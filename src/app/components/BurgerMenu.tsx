@@ -9,13 +9,13 @@ export default function BurgerMenu() {
   return (
     <Menu right>
       {/* <Menu> */}
-      <Link href={"/about"} className="menu-item">
+      <Link href={"#about"} className="menu-item">
         About
       </Link>
-      <Link href={"/projects"} className="menu-item">
+      <Link href={"#projects"} className="menu-item">
         Projects
       </Link>
-      <Link href={"/socials"} className="menu-item">
+      <Link href={"#socials"} className="menu-item">
         Contact
       </Link>
     </Menu>
