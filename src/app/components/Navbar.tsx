@@ -45,6 +45,7 @@ export default function Navbar() {
       <motion.nav
         initial={{ opacity: 0, x: -100 }} // starting state
         animate={{ opacity: 1, x: 0 }} // end state
+        whileInView={{ opacity: 1, y: 0 }}
         transition={{ duration: 1.5 }} // animation duration
         viewport={{ once: false }}
         className="navbar w-full bg-gray-500"

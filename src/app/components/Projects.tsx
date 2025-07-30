@@ -17,12 +17,21 @@ export default function Projects() {
         PROJECTS
       </motion.h2>
       {/* project 1st section */}
-      <motion.div
+      {/* <motion.div
         className="projects-wrapper flex justify-center mt-12 mb-8 w-full"
         initial={{ opacity: 0, x: -100 }} // starting state
         animate={{ opacity: 1, x: 0 }} // end state
         transition={{ duration: 1.5 }}
         viewport={{ once: false }}
+      > */}
+      <motion.div
+        className="projects-wrapper flex justify-center mt-12 mb-8 w-full"
+        // initial={{ opacity: 0, x: 50, y: 50 }}
+        // whileInView={{ opacity: 1, x: 0, y: 0 }}
+        initial={{ opacity: 0, x: -50, y: 50 }} // 👈 starts bottom-left
+        whileInView={{ opacity: 1, x: 0, y: 0 }} // 👈 ends at original position
+        transition={{ duration: 1.5, ease: "easeOut" }}
+        viewport={{ once: false, amount: 0.5 }}
       >
         <div className="project-contents w-1/3">
           <Link
@@ -85,12 +94,19 @@ export default function Projects() {
         </div>
       </motion.div>
       {/* project 2nd section */}
-      <motion.div
+      {/* <motion.div
         className="projects-wrapper flex justify-center mb-8 w-full"
         initial={{ opacity: 0, x: 100 }} // starting state
         animate={{ opacity: 1, x: 0 }} // end state
         transition={{ duration: 1.5 }}
         viewport={{ once: false }}
+      > */}
+      <motion.div
+        className="projects-wrapper flex justify-center mb-8 w-full"
+        initial={{ opacity: 0, x: 50, y: 50 }} // 👈 Starts bottom-right
+        whileInView={{ opacity: 1, x: -50, y: 0 }} // 👈 Moves to left-center
+        transition={{ duration: 1.5, ease: "easeOut" }}
+        viewport={{ once: false, amount: 0.5 }}
       >
         <div className="project-contents w-1/3">
           <Link
@@ -151,12 +167,26 @@ export default function Projects() {
         </div>
       </motion.div>
       {/* project 3rd section */}
-      <motion.div
+      {/* <motion.div
         className="projects-wrapper flex justify-center mb-8 w-full"
         initial={{ opacity: 0, x: -100 }} // starting state
         animate={{ opacity: 1, x: 0 }} // end state
         transition={{ duration: 1.5 }}
         viewport={{ once: false }}
+      > */}
+      {/* <motion.div
+        className="projects-wrapper flex justify-center mb-8 w-full"
+        initial={{ opacity: 0, scale: 0.5 }} // 👈 Small and transparent
+        whileInView={{ opacity: 1, scale: 1 }} // 👈 Full size and visible
+        transition={{ duration: 1.5, ease: "easeOut" }}
+        viewport={{ once: true, amount: 0.5 }}
+      > */}
+      <motion.div
+        className="projects-wrapper flex justify-center mb-8 w-full"
+        initial={{ opacity: 0, scale: 0.3 }}
+        whileInView={{ opacity: 1, scale: [0.3, 1.1, 1] }} // 👈 Slight overshoot
+        transition={{ duration: 1.5, ease: "easeOut" }}
+        viewport={{ once: false, amount: 0.5 }}
       >
         <div className="project-contents w-1/3">
           <Link

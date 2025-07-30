@@ -1,3 +1,5 @@
+"use client";
+
 import BurgerMenu from "./components/BurgerMenu";
 import About from "./components/About";
 import Navbar from "@/app/components/Navbar";
