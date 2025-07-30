@@ -104,7 +104,7 @@ export default function Projects() {
       <motion.div
         className="projects-wrapper flex justify-center mb-8 w-full"
         initial={{ opacity: 0, x: 50, y: 50 }} // 👈 Starts bottom-right
-        whileInView={{ opacity: 1, x: -50, y: 0 }} // 👈 Moves to left-center
+        whileInView={{ opacity: 1, x: 0, y: 0 }} // 👈 Moves to left-center
         transition={{ duration: 1.5, ease: "easeOut" }}
         viewport={{ once: true, amount: 0.5 }}
       >
