@@ -31,7 +31,7 @@ export default function Projects() {
         initial={{ opacity: 0, x: -50, y: 50 }} // 👈 starts bottom-left
         whileInView={{ opacity: 1, x: 0, y: 0 }} // 👈 ends at original position
         transition={{ duration: 1.5, ease: "easeOut" }}
-        viewport={{ once: false, amount: 0.5 }}
+        viewport={{ once: true, amount: 0.5 }}
       >
         <div className="project-contents w-1/3">
           <Link
@@ -106,7 +106,7 @@ export default function Projects() {
         initial={{ opacity: 0, x: 50, y: 50 }} // 👈 Starts bottom-right
         whileInView={{ opacity: 1, x: -50, y: 0 }} // 👈 Moves to left-center
         transition={{ duration: 1.5, ease: "easeOut" }}
-        viewport={{ once: false, amount: 0.5 }}
+        viewport={{ once: true, amount: 0.5 }}
       >
         <div className="project-contents w-1/3">
           <Link
@@ -186,7 +186,7 @@ export default function Projects() {
         initial={{ opacity: 0, scale: 0.3 }}
         whileInView={{ opacity: 1, scale: [0.3, 1.1, 1] }} // 👈 Slight overshoot
         transition={{ duration: 1.5, ease: "easeOut" }}
-        viewport={{ once: false, amount: 0.5 }}
+        viewport={{ once: true, amount: 0.5 }}
       >
         <div className="project-contents w-1/3">
           <Link
