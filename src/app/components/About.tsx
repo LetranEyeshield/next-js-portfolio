@@ -2,6 +2,8 @@
 import { motion } from "framer-motion";
 import Link from "next/link";
 
+import { AuroraTextEffect } from "@/app/components/lightswind/aurora-text";
+
 export default function About() {
   return (
     <div
@@ -14,9 +16,21 @@ export default function About() {
         transition={{ duration: 1.5 }}
         viewport={{ once: false }}
       >
-        <h1 className="roboto-slab text-3xl sm:text-5xl text-center pb-2">
+        <AuroraTextEffect
+          text="Michael Cris Rigucira Rosalin"
+          colors={{
+            first: "bg-cyan-400",
+            second: "bg-yellow-400",
+            third: "bg-green-400",
+            fourth: "bg-purple-500",
+          }}
+          blurAmount="blur-lg"
+          className="roboto-slab text-3xl sm:text-5xl text-center"
+        />
+
+        {/* <h1 className="roboto-slab text-3xl sm:text-5xl text-center pb-2">
           Michael Cris R. Rosalin
-        </h1>
+        </h1> */}
         <p className="text-center font-bold">Programmer / Web Developer</p>
         <p className="text-center font-bold">
           Bachelor of Science in Information Technology

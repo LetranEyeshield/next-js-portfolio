@@ -79,6 +79,11 @@ header {
   margin-left: 5px;
 }
 
+.aurora {
+  padding-top: 4px !important;
+  padding-bottom: 4px !important;
+}
+
 /* responsive */
 @media (max-width: 1215px) {
   .project-contents img {
