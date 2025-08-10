@@ -3,6 +3,7 @@ import { motion } from "framer-motion";
 import Link from "next/link";
 
 import { AuroraTextEffect } from "@/app/components/lightswind/aurora-text";
+import { ShinyText } from "@/app/components/lightswind/shiny-text";
 
 export default function About() {
   return (
@@ -31,6 +32,7 @@ export default function About() {
         {/* <h1 className="roboto-slab text-3xl sm:text-5xl text-center pb-2">
           Michael Cris R. Rosalin
         </h1> */}
+
         <p className="text-center font-bold">Programmer / Web Developer</p>
         <p className="text-center font-bold">
           Bachelor of Science in Information Technology
@@ -38,13 +40,21 @@ export default function About() {
         <p className="text-center font-bold">
           Colegio De San Juan De Letran-Manaoag
         </p>
+
         <Link
           href={"https://zingy-palmier-6c0268.netlify.app/"}
           target="_blank"
           rel="noopener noreferrer"
           className="block font-bold text-center text-xl hover:text-gray-500"
         >
-          Online Resume
+          <ShinyText
+            size="2xl"
+            weight="bold"
+            baseColor="rgba(242, 245, 250, 1)"
+            shineColor="rgba(6, 0, 12, 0.9)"
+          >
+            Online Resume
+          </ShinyText>
         </Link>
       </motion.div>
     </div>
