@@ -74,20 +74,20 @@ export default function Projects() {
         </div>
         <div className="project-contents w-1/3">
           <Link
-            href="https://rhu-pharma-ncd-list-mern.vercel.app"
+            href="https://simple-e-commerce-site-ten.vercel.app/"
             target="_blank"
             rel="noreferrer"
             className="text-center"
           >
             <Image
-              src="/images/mern.jpg"
-              alt="RHU Pharma NCD List Image"
+              src="/images/redux.jpg"
+              alt="Simple E-Commerce Site Image"
               width={400}
               height={400}
               className="px-4 border border-gray-500 border-solid rounded-md mx-auto"
             />
             <p className="text-center mx-auto bg-gradient-to-r from-gray-300 to-gray-600">
-              RHU Pharmacy Patient List (MERN Stack, Axios, Typescript &
+              Simple E-Commerce Website (Next.js, Redux, Stripe, Typescript &
               Tailwind)
             </p>
           </Link>
@@ -255,6 +255,26 @@ export default function Projects() {
         transition={{ duration: 1.5 }}
         viewport={{ once: true }}
       >
+        <div className="project-contents w-1/3">
+          <Link
+            href="https://rhu-pharma-ncd-list-mern.vercel.app"
+            target="_blank"
+            rel="noreferrer"
+            className="text-center"
+          >
+            <Image
+              src="/images/mern.jpg"
+              alt="RHU Pharma NCD List Image"
+              width={400}
+              height={400}
+              className="px-4 border border-gray-500 border-solid rounded-md mx-auto"
+            />
+            <p className="text-center mx-auto bg-gradient-to-r from-gray-300 to-gray-600">
+              RHU Pharmacy Patient List (MERN Stack, Axios, Typescript &
+              Tailwind)
+            </p>
+          </Link>
+        </div>
         <div className="project-contents w-1/3">
           <Link
             href="https://github.com/LetranEyeshield/the_dc_system"
