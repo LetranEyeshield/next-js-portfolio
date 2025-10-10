@@ -110,21 +110,21 @@ export default function Projects() {
       >
         <div className="project-contents w-1/3">
           <Link
-            href="https://rhu-online-booking-checkup.vercel.app"
+            href="https://java-spring-boot-reg-login-frontend.vercel.app/"
             target="_blank"
             rel="noreferrer"
             className="text-center"
           >
             <Image
-              src="/images/rhu-booking.jpg"
-              alt="RHU Booking Image"
+              src="/images/java-spring-boot.jpg"
+              alt="Reg Login Image"
               width={400}
               height={400}
               className="px-4 border border-gray-500 border-solid rounded-md mx-auto"
             />
             <p className="text-center mx-auto bg-gradient-to-r from-gray-300 to-gray-600">
-              RHU Online Booking Check-up (Next.js, Typescript, MongoDB,
-              Tailwind CSS)
+              Java Spring Boot - Reg Login (React, Typescript, MongoDB, Tailwind
+              CSS, Java, Spring Boot, Spring Security)
             </p>
           </Link>
         </div>
@@ -275,6 +275,28 @@ export default function Projects() {
             </p>
           </Link>
         </div>
+
+        <div className="project-contents w-1/3">
+          <Link
+            href="https://rhu-online-booking-checkup.vercel.app"
+            target="_blank"
+            rel="noreferrer"
+            className="text-center"
+          >
+            <Image
+              src="/images/rhu-booking.jpg"
+              alt="RHU Booking Image"
+              width={400}
+              height={400}
+              className="px-4 border border-gray-500 border-solid rounded-md mx-auto"
+            />
+            <p className="text-center mx-auto bg-gradient-to-r from-gray-300 to-gray-600">
+              RHU Online Booking Check-up (Next.js, Typescript, MongoDB,
+              Tailwind CSS)
+            </p>
+          </Link>
+        </div>
+
         <div className="project-contents w-1/3">
           <Link
             href="https://github.com/LetranEyeshield/the_dc_system"
