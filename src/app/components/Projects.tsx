@@ -124,7 +124,7 @@ export default function Projects() {
             />
             <p className="text-center mx-auto bg-gradient-to-r from-gray-300 to-gray-600">
               Java Spring Boot - Reg Login (React, Typescript, MongoDB, Tailwind
-              CSS, Java, Spring Boot, Spring Security)
+              CSS, Java, Spring Boot, Security)
             </p>
           </Link>
         </div>
