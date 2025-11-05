@@ -8,7 +8,7 @@ import { ShinyText } from "@/app/components/lightswind/shiny-text";
 export default function About() {
   return (
     <div
-      className="w-full flex flex-col items-center bg-gradient-to-r from-gray-300 to-purple-300 pt-50 pb-25"
+      className="w-full flex flex-col items-center bg-gradient-to-r from-gray-300 to-purple-300 pt-50 pb-15"
       id="about"
     >
       <motion.div
@@ -33,15 +33,15 @@ export default function About() {
           Michael Cris R. Rosalin
         </h1> */}
 
-        <p className="text-center font-bold">Programmer / Web Developer</p>
-        <p className="text-center font-bold">
+        {/* <p className="text-center font-bold">Programmer / Web Developer</p> */}
+       
+        {/* <p className="text-center font-bold">
           Bachelor of Science in Information Technology
         </p>
         <p className="text-center font-bold">
           Colegio De San Juan De Letran-Manaoag
-        </p>
-
-        <Link
+        </p> */}
+         <Link
           href={"https://zingy-palmier-6c0268.netlify.app/"}
           target="_blank"
           rel="noopener noreferrer"
@@ -56,6 +56,12 @@ export default function About() {
             Online Resume
           </ShinyText>
         </Link>
+          <p className="text-center mb-4 mt-8 mx-auto w-8/12">Hi, I&apos;m Michael — a self-taught web developer passionate about building fast, modern, and user-friendly web applications.</p>
+          <p className="text-center mb-4 mx-auto w-8/12">I build fast, scalable, and user-focused web applications using React, Next.js, TypeScript, Tailwind CSS, MongoDB, Vanilla PHP, and Java/Spring Boot. My journey started with curiosity and grew into a passion for creating real-world digital solutions.</p>
+          <p className="text-center mb-4 mx-auto w-8/12">From front-end UI/UX to back-end API development and database management, I turn ideas into fully functional applications. I focus on clean code, performance, and continuous improvement — always learning, always leveling up.</p>
+          <p className="text-center mx-auto w-8/12">Let&apos;s build something great together.
+            Explore my projects below — and feel free to reach out if you'd like to collaborate!</p>
+       
       </motion.div>
     </div>
   );

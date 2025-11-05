@@ -2,6 +2,7 @@
 import Link from "next/link";
 import { motion } from "framer-motion";
 import { FaEnvelope, FaFacebook, FaGithub, FaLinkedin } from "react-icons/fa6";
+import Contact from "./Contact";
 
 export default function Socials() {
   return (
@@ -16,6 +17,8 @@ export default function Socials() {
           Let&apos;s Build Together!
         </h3>
         <p className="text-center text-white">Coffee is life</p>
+
+        <Contact />
 
         <ul className="flex justify-center align-center mt-14">
           <li className="mx-4">

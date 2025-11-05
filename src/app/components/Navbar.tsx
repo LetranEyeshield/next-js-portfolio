@@ -70,7 +70,7 @@ export default function Navbar() {
           </li>
           <li className="mx-6 hover:bg-violet-100 rounded-md">
             <Link
-              href={"#socials"}
+              href={"#contact"}
               className="flex text-white px-6 py-3 text-l md:text-2xl hover:text-gray-500"
             >
               Contact
