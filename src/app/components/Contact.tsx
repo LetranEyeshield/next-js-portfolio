@@ -28,7 +28,13 @@ export default function ContactForm() {
     });
 
     if (res.ok) {
-      toast("Message Sent!");
+      toast('Message Sent!', {
+      style: {
+      background: '#bdcff7ff',
+      color: '#000',
+      padding: '10px',
+      },
+    });
       setFormData({
         fullName: "",
         email: "",
@@ -36,7 +42,13 @@ export default function ContactForm() {
         message: "",
       });
     } else {
-       toast("Something went wrong. Please try again.!");
+        toast('Something went wrong, please try again!', {
+      style: {
+      background: '#fa6d6dff',
+      color: '#fff',
+      padding: '10px',
+      },
+    });
     }
   };
 

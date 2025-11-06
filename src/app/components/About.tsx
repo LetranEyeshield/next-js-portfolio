@@ -60,7 +60,7 @@ export default function About() {
           <p className="text-center mb-4 mx-auto w-8/12">I build fast, scalable, and user-focused web applications using React, Next.js, TypeScript, Tailwind CSS, MongoDB, Vanilla PHP, and Java/Spring Boot. My journey started with curiosity and grew into a passion for creating real-world digital solutions.</p>
           <p className="text-center mb-4 mx-auto w-8/12">From front-end UI/UX to back-end API development and database management, I turn ideas into fully functional applications. I focus on clean code, performance, and continuous improvement — always learning, always leveling up.</p>
           <p className="text-center mx-auto w-8/12">Let&apos;s build something great together.
-            Explore my projects below — and feel free to reach out if you'd like to collaborate!</p>
+            Explore my projects below — and feel free to reach out if you&apos;d like to collaborate!</p>
        
       </motion.div>
     </div>
