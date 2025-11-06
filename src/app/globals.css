@@ -115,6 +115,9 @@ header {
   #projects h2 {
     margin: 20px auto 25px;
   }
+  #contact{
+    width: 85%;
+  }
 }
 
 @media (max-width: 450px) {
