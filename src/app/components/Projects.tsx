@@ -80,7 +80,7 @@ export default function Projects() {
             className="text-center"
           >
             <Image
-              src="/images/redux.jpg"
+              src="/images/snow-and-shadow.jpg"
               alt="Simple E-Commerce Site Image"
               width={400}
               height={400}
