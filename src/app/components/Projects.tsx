@@ -74,7 +74,7 @@ export default function Projects() {
         </div>
         <div className="project-contents w-1/3">
           <Link
-            href="https://simple-e-commerce-site-ten.vercel.app/"
+            href="https://simple-next-commerce.vercel.app/"
             target="_blank"
             rel="noreferrer"
             className="text-center"
@@ -87,8 +87,8 @@ export default function Projects() {
               className="px-4 border border-gray-500 border-solid rounded-md mx-auto"
             />
             <p className="text-center mx-auto bg-gradient-to-r from-gray-300 to-gray-600">
-              Simple E-Commerce Website (Next.js, Redux, Stripe, Typescript &
-              Tailwind)
+              Simple Next E-Commerce Website (Next.js, Zustand, Stripe(Test Mode), Cloudinary (for storing images), 
+              Typescript & Tailwind)
             </p>
           </Link>
         </div>
