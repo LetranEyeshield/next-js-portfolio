@@ -56,7 +56,7 @@ export default function PageNew() {
         {
            url: "https://java-spring-boot-reg-login-frontend.vercel.app/",
   title: "Secure Registration & Login System",
-  imagePath: "/images/face-scan.jpg",
+  imagePath: "/images/java-spring-boot.jpg",
   description:
     "A full-stack authentication system built with React and Spring Boot, implementing secure user registration, login, and JWT-based authentication. Integrated Spring Security for role-based access control and MongoDB for persistent storage. Designed with scalable architecture and modern UI using Tailwind CSS.",
   tech: [
