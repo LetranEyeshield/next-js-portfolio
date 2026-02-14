@@ -7,11 +7,11 @@ import { FaGithub, FaLinkedin, FaEnvelope, FaFacebook } from "react-icons/fa";
 export default function PageNew() {
   const projects = [
     {
-      url: "https://simple-employee-face-recognition-ap.vercel.app/",
-      imagePath: "/images/face-scan.jpg",
+      url: "https://simple-face-detection-app.vercel.app/",
+      imagePath: "/images/face-recog.jpg",
       title: "Simple Face Recognition App",
       description: "A real-time facial recognition attendance system that allows employees to securely register and log in using face biometrics. Built with Face-API for client-side detection and Prisma with Neon PostgreSQL for persistent storage. Designed with performance, accuracy, and production-ready authentication flow in mind.",
-      tech: ["Next.js", "Face-API", "Neon Database", "Prisma", "Javascript", "TypeScript", "Tailwind CSS"],
+      tech: ["Next.js", "Face-API", "MongoDB Atlas Database", "Javascript", "TypeScript", "Tailwind CSS"],
     },
     {
       url: "https://rhu-online-appointment-checkup.vercel.app/",
