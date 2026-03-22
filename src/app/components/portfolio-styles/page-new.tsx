@@ -23,11 +23,26 @@ export default function PageNew() {
       ],
     },
     {
+      url: "https://rhu-pharmacy.vercel.app",
+      imagePath: "/images/rhu-pharm.jpg",
+      title: "RHU Pharmacy",
+      description:
+        "A web application built to manage pharmacy patient records, prescriptions, and medication tracking. Implemented RESTful APIs with Axios integration and a TypeScript-based frontend styled with Tailwind CSS for improved usability and workflow efficiency.",
+      tech: [
+        "Next.js",
+        "MongoDB Atlas Database",
+        "Axios",
+        "Javascript",
+        "TypeScript",
+        "Tailwind CSS",
+      ],
+    },
+    {
       url: "https://simple-face-detection-app.vercel.app/",
       imagePath: "/images/face-recog.jpg",
       title: "Simple Face Recognition App",
       description:
-        "A real-time facial recognition attendance system that allows employees to securely register and log in using face biometrics. Built with Face-API for client-side detection and Prisma with Neon PostgreSQL for persistent storage. Designed with performance, accuracy, and production-ready authentication flow in mind.",
+        "A real-time facial recognition attendance system that allows employees to securely register and log in using face biometrics. Built with Face-API for client-side detection with MongoDB Atlas for persistent storage. Designed with performance, accuracy, and production-ready authentication flow in mind.",
       tech: [
         "Next.js",
         "Face-API",
@@ -77,7 +92,12 @@ export default function PageNew() {
         "A business-focused website built for a custom mug printing service, enabling customers to browse designs and submit personalized orders. Integrated email notifications using Nodemailer to streamline client inquiries and order communication.",
       tech: ["Next.js", "Javascript", "Typescript", "Nodemailer"],
     },
-    {
+   
+    //to be shown in see more button
+  ];
+
+  const seeMoreProjects = [
+     {
       url: "https://sample-debut-website.vercel.app",
       imagePath: "images/rencriselle.jpg",
       title: "Sample Debut Website",
@@ -85,10 +105,6 @@ export default function PageNew() {
         "An interactive celebratory website created for a debut event, showcasing event details, photo galleries, and RSVP management. Built with a focus on performance, elegant UI design, and seamless guest communication.",
       tech: ["Next.js", "Javascript", "Typescript", "Nodemailer"],
     },
-    //to be shown in see more button
-  ];
-
-  const seeMoreProjects = [
     {
       url: "https://my-wedding-website-six.vercel.app",
       imagePath: "/images/rolan-kate.jpg",
@@ -137,22 +153,22 @@ export default function PageNew() {
         "A database-driven system built with Java and MySQL to manage civil registry records including births, marriages, and legal documents. Designed with relational data modeling and administrative access controls to ensure data integrity and structured reporting.",
       tech: ["Java", "MySQL", "JDBC", "Relational Database Design"],
     },
-    {
-      url: "https://rhu-pharma-ncd-list-mern.vercel.app",
-      title: "RHU Pharmacy Patient Management",
-      imagePath: "/images/mern.jpg",
-      description:
-        "A MERN stack application built to manage pharmacy patient records, prescriptions, and medication tracking. Implemented RESTful APIs with Axios integration and a TypeScript-based frontend styled with Tailwind CSS for improved usability and workflow efficiency.",
-      tech: [
-        "MongoDB",
-        "Express",
-        "React",
-        "Node.js",
-        "Axios",
-        "TypeScript",
-        "Tailwind CSS",
-      ],
-    },
+    // {
+    //   url: "https://rhu-pharma-ncd-list-mern.vercel.app",
+    //   title: "RHU Pharmacy Patient Management",
+    //   imagePath: "/images/mern.jpg",
+    //   description:
+    //     "A MERN stack application built to manage pharmacy patient records, prescriptions, and medication tracking. Implemented RESTful APIs with Axios integration and a TypeScript-based frontend styled with Tailwind CSS for improved usability and workflow efficiency.",
+    //   tech: [
+    //     "MongoDB",
+    //     "Express",
+    //     "React",
+    //     "Node.js",
+    //     "Axios",
+    //     "TypeScript",
+    //     "Tailwind CSS",
+    //   ],
+    // },
     {
       url: "https://github.com/LetranEyeshield/the_dc_system",
       title: "Death Certificate Management System (Beta)",
@@ -381,14 +397,14 @@ export default function PageNew() {
             {!show ? (
               <button
                 onClick={() => setShow(true)}
-                className="inline-flex items-center gap-2 px-8 py-4 border border-white/20 rounded-full hover:bg-white/10 transition"
+                className="inline-flex items-center gap-2 px-8 py-4 border border-white/20 rounded-full hover:bg-white/10 transition cursor-pointer"
               >
                 See More Projects →
               </button>
             ) : (
               <button
                 onClick={() => setShow(false)}
-                className="inline-flex items-center gap-2 px-8 py-4 border border-white/20 rounded-full hover:bg-white/10 transition"
+                className="inline-flex items-center gap-2 px-8 py-4 border border-white/20 rounded-full hover:bg-white/10 transition cursor-pointer"
               >
                 Show Less ↑
               </button>
