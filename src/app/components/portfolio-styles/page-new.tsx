@@ -76,7 +76,7 @@ export default function PageNew() {
         "A full-stack e-commerce platform featuring product management, Stripe payment integration (test mode), global state management with Zustand, and cloud-based image storage via Cloudinary. Designed with scalable architecture and a seamless checkout experience.",
       tech: [
         "Next.js",
-        "Stripe(Text Mode)",
+        "Stripe(Test Mode)",
         "MongoDB",
         "Zustand",
         "Cloudinary",
@@ -85,12 +85,12 @@ export default function PageNew() {
       ],
     },
     {
-      url: "https://rms-mug-printing.vercel.app",
-      imagePath: "/images/rms.jpg",
-      title: "RM's Mug Printing",
+      url: "https://rms-digital-printing.vercel.app/",
+      imagePath: "/images/rms-digital.jpg",
+      title: "RM's Digital Printing",
       description:
         "A business-focused website built for a custom mug printing service, enabling customers to browse designs and submit personalized orders. Integrated email notifications using Nodemailer to streamline client inquiries and order communication.",
-      tech: ["Next.js", "Javascript", "Typescript", "Nodemailer"],
+      tech: ["Next.js", "Javascript", "Typescript", "Nodemailer","ZOD Validaton", "DOMPurify"],
     },
    
     //to be shown in see more button
