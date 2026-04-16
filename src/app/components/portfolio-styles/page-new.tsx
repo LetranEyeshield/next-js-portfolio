@@ -291,7 +291,8 @@ export default function PageNew() {
           </a>
 
           <a
-            href="https://zingy-palmier-6c0268.netlify.app/"
+            // href="https://zingy-palmier-6c0268.netlify.app/"
+            href="https://letraneyeshield.github.io/resume/"
             target="_blank"
             className="px-8 py-4 border border-white/20 rounded-full hover:bg-white/10 transition"
           >
