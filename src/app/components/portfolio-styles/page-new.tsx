@@ -98,6 +98,14 @@ export default function PageNew() {
 
   const seeMoreProjects = [
      {
+      url: "https://marielle-birthday.vercel.app/",
+      imagePath: "images/marielle-birthday.jpg",
+      title: "Sample Birthday Website",
+      description:
+        "An interactive celebratory website created for a birthday event, showcasing event details, photo galleries, and RSVP management. Built with a focus on performance, elegant UI design, and seamless guest communication.",
+      tech: ["Next.js", "Javascript", "Typescript", "Nodemailer","ZOD Validaton", "DOMPurify"],
+    },
+     {
       url: "https://sample-debut-website.vercel.app",
       imagePath: "images/rencriselle.jpg",
       title: "Sample Debut Website",
