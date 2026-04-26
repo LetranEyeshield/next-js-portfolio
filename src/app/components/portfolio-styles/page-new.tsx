@@ -8,7 +8,7 @@ export default function PageNew() {
     {
       url: "https://rhu-medcert-sample.vercel.app/",
       imagePath: "/images/rhu-medcert.jpg",
-      title: "Sample Rural Health Unit Medical Certificate App",
+      title: "Simple Rural Health Unit Medical Certificate App",
       description:
         "Web-based RHU Medical Certificate System built with Next.js, GraphQL, MongoDB, and TanStack Query. Supports patient management, certificate issuance, and printable documents.",
       tech: [
@@ -23,18 +23,22 @@ export default function PageNew() {
       ],
     },
     {
-      url: "https://rhu-pharmacy.vercel.app",
-      imagePath: "/images/rhu-pharm.jpg",
-      title: "RHU Pharmacy",
+      url: "https://rhu-manaoag-pharmacy.vercel.app/",
+      imagePath: "/images/rhu-manaoag-pharmacy.jpg",
+      title: "RHU Manaoag Pharmacy",
       description:
-        "A web application built to manage pharmacy patient records, prescriptions, and medication tracking. Implemented RESTful APIs with Axios integration and a TypeScript-based frontend styled with Tailwind CSS for improved usability and workflow efficiency.",
+        "A web application built to manage pharmacy patient records, prescriptions, and medication tracking. Implemented GraphQL API with Axios integration, ZOD Validation, DomPurify, Tanstack Query and a TypeScript-based frontend styled with Tailwind CSS for improved usability and workflow efficiency.",
       tech: [
         "Next.js",
         "MongoDB Atlas Database",
         "Axios",
         "Javascript",
         "TypeScript",
+        "GraphQL",
         "Tailwind CSS",
+        "Dom Purify",
+        "ZOD Validation",
+        "Tanstack Query",
       ],
     },
     {
@@ -90,24 +94,39 @@ export default function PageNew() {
       title: "RM's Digital Printing",
       description:
         "A business-focused website built for a custom mug printing service, enabling customers to browse designs and submit personalized orders. Integrated email notifications using Nodemailer to streamline client inquiries and order communication.",
-      tech: ["Next.js", "Javascript", "Typescript", "Nodemailer","ZOD Validaton", "DOMPurify"],
+      tech: [
+        "Next.js",
+        "Javascript",
+        "Typescript",
+        "Nodemailer",
+        "ZOD Validaton",
+        "DOM Purify",
+        "QStash",
+      ],
     },
-   
+
     //to be shown in see more button
   ];
 
   const seeMoreProjects = [
-     {
+    {
       url: "https://marielle-birthday.vercel.app/",
       imagePath: "images/marielle-birthday.jpg",
       title: "Sample Birthday Website",
       description:
         "An interactive celebratory website created for a birthday event, showcasing event details, photo galleries, and RSVP management. Built with a focus on performance, elegant UI design, and seamless guest communication.",
-      tech: ["Next.js", "Javascript", "Typescript", "Nodemailer","ZOD Validaton", "DOMPurify"],
+      tech: [
+        "Next.js",
+        "Javascript",
+        "Typescript",
+        "Nodemailer",
+        "ZOD Validaton",
+        "DOMPurify",
+      ],
     },
-     {
+    {
       url: "https://sample-debut-website.vercel.app",
-      imagePath: "images/rencriselle.jpg",
+      imagePath: "images/ren-criselle.jpg",
       title: "Sample Debut Website",
       description:
         "An interactive celebratory website created for a debut event, showcasing event details, photo galleries, and RSVP management. Built with a focus on performance, elegant UI design, and seamless guest communication.",
