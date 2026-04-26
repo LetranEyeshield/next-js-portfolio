@@ -27,7 +27,7 @@ export default function PageNew() {
       imagePath: "/images/rhu-manaoag-pharmacy.jpg",
       title: "RHU Manaoag Pharmacy",
       description:
-        "A web application built to manage pharmacy patient records, prescriptions, and medication tracking. Implemented GraphQL API with Axios integration, ZOD Validation, DomPurify, Tanstack Query and a TypeScript-based frontend styled with Tailwind CSS for improved usability and workflow efficiency.",
+        "A web application built to manage pharmacy patient records, prescriptions, and medication tracking. Implemented GraphQL API with Axios integration, ZOD Validation, Sanitize-HTML, Tanstack Query and a TypeScript-based frontend styled with Tailwind CSS for improved usability and workflow efficiency.",
       tech: [
         "Next.js",
         "MongoDB Atlas Database",
@@ -36,9 +36,9 @@ export default function PageNew() {
         "TypeScript",
         "GraphQL",
         "Tailwind CSS",
-        "Dom Purify",
+        "Sanitize-HTML",
         "ZOD Validation",
-        "Tanstack Query",
+        "Tanstack Query, Pagination, Table",
       ],
     },
     {
@@ -222,19 +222,19 @@ export default function PageNew() {
           <div className="flex items-center gap-6">
             <a
               href="#about"
-              className="hover:text-indigo-400 transition text-sm"
+              className="hover:text-red-500 transition text-sm"
             >
               About
             </a>
             <a
               href="#projects"
-              className="hover:text-indigo-400 transition text-sm"
+              className="hover:text-red-500 transition text-sm"
             >
               Projects
             </a>
             <a
               href="#contact"
-              className="hover:text-indigo-400 transition text-sm"
+              className="hover:text-red-500 transition text-sm"
             >
               Contact
             </a>
@@ -312,7 +312,7 @@ export default function PageNew() {
         <div className="flex justify-center gap-6 mt-10 flex-wrap">
           <a
             href="#projects"
-            className="px-8 py-4 bg-indigo-600 rounded-full hover:bg-indigo-500 transition shadow-[0_0_40px_rgba(99,102,241,0.4)]"
+            className="px-8 py-4 text-white bg-red-500 rounded-full hover:bg-white hover:text-red-500 transition shadow-[0_0_40px_rgba(99,102,241,0.4)]"
           >
             View Projects
           </a>
@@ -398,7 +398,7 @@ export default function PageNew() {
                 className="rounded-lg max-w-full mb-4"
               />
 
-              <h3 className="text-xl font-semibold mb-3 group-hover:text-indigo-400 transition">
+              <h3 className="text-xl font-semibold mb-3 group-hover:text-red-500 transition">
                 {project.title}
               </h3>
 
@@ -410,7 +410,7 @@ export default function PageNew() {
                 {project.tech.map((tech, i) => (
                   <span
                     key={i}
-                    className="text-xs px-3 py-1 bg-indigo-500/20 text-indigo-300 rounded-full"
+                    className="text-xs px-3 py-1 bg-red-400/20 text-white rounded-full"
                   >
                     {tech}
                   </span>
@@ -425,7 +425,7 @@ export default function PageNew() {
             {!show ? (
               <button
                 onClick={() => setShow(true)}
-                className="inline-flex items-center gap-2 px-8 py-4 border border-white/20 rounded-full hover:bg-white/10 transition cursor-pointer"
+                className="inline-flex items-center gap-2 px-8 py-4 border border-white/20 rounded-full hover:bg-red-500/20 transition cursor-pointer"
               >
                 See More Projects →
               </button>
@@ -462,7 +462,7 @@ export default function PageNew() {
         <a
           href="mailto:rosalinmichaelcris@gmail.com"
           target="_blank"
-          className="px-6 py-3 bg-indigo-600 rounded-full hover:bg-indigo-500 transition"
+          className="px-6 py-3 bg-red-500 rounded-full hover:bg-red-300 transition"
         >
           Contact Me
         </a>

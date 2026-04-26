@@ -6,10 +6,10 @@ html {
 .aurora-text {
   background: linear-gradient(
     90deg,
-    #6366f1,
-    #8b5cf6,
-    #ec4899,
-    #6366f1
+    #eeeef1,
+    #79787a,
+    #f75252,
+    #cc0a0a
   );
   background-size: 300% 300%;
   background-clip: text;
@@ -28,9 +28,9 @@ html {
   background: linear-gradient(
     90deg,
     cyan,
-    purple,
+    rgb(240, 32, 32),
     white,
-    green
+    rgb(252, 3, 3)
   );
   background-size: 300% 300%;
   -webkit-background-clip: text;
